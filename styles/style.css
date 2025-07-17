@@ -46,13 +46,6 @@ body {
     text-decoration: underline;
 }
 
-.linha {
-    display: block;
-    width: 100%;
-    border-bottom: 2px solid var(--cor0);
-    padding-bottom: 5px;
-}
-
 .secao-primaria div {
     display: flex;
     flex-flow: column nowrap;
