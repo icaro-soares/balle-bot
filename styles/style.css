@@ -85,3 +85,43 @@ body {
     background-color: var(--cor0);
     transition: .3s;
 }
+
+.secao-secundaria {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.secao-secundaria h2 {
+    font: bold 1.5em var(--fonte2);
+    color: var(--cor1);
+}
+
+.secao-secundaria ol {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secao-secundaria ol li {
+    font: normal 14px var(--fonte2);
+    color: var(--cor1);
+}
+
+.secao-secundaria ol li p {
+    font: normal 14px var(--fonte2);
+    color: var(--cor1)
+}
+
+.rodape {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
