@@ -46,6 +46,10 @@ body {
     text-decoration: underline;
 }
 
+.principal {
+    border-top: 2px solid var(--cor1);
+}
+
 .secao-primaria div {
     display: flex;
     flex-flow: column nowrap;
@@ -89,6 +93,8 @@ body {
 }
 
 .secao-secundaria h2 {
+    margin-top: 10px;
+    border-top: 2px solid var(--cor2);
     font: bold 1.5em var(--fonte2);
     color: var(--cor1);
 }
