@@ -86,3 +86,33 @@ body {
     color: white;
     transition: .3s;
 }
+
+.secao-secundaria, .secao-secundaria ol {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.secao-secundaria h2 {
+    border-top: 2px solid var(--cor0);
+    padding-top: 1em;
+    font: bold 1.5em var(--fonte2);
+    color: var(--cor1);
+}
+
+.secao-secundaria ol li {
+    text-align: center;
+    color: var(--cor1);
+    font-family: var(--fonte2);
+}
+
+.rodape {
+    border-top: 2px solid var(--cor0);
+    margin-top: 3em;
+    padding: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
